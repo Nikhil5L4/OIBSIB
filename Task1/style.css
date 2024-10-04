@@ -257,6 +257,16 @@ nav {
     opacity:1;
     margin-left:3px;
   }
+  footer .f1{
+    width:100%;
+    height:250px;
+    background-color: #ce373797;
+  }
+  footer .f2{
+    width:100%;
+    height:300px;
+    background-color: #1d914097;
+  }
   
 
   
