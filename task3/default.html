@@ -3,34 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature convertor</title>
+    <title>Temperature Converter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      
-    
-                <div class="container">
-                       <h1>Temperature Converter</h1>
-                       <div class="wrapper1">
-                        <label for="degree">Degrees</label>
-                        <label for="type">Type</label>
-                       </div>
-                      <div class="wrapper2">
-                        <input type="text" class="input">
-                       <select name="type" id="type">
-                        <option value="Farenheit">Fahrehnheit</option>
-                        <option value="Celsius">Celsius</option>
-                       </select>
-                       
-                      </div>
-                      <label for="res" class="wrapper1">Result</label>
-                      <input type="text" id="result" class="wrapper1">
-                      
-                      <button>Convert</button>
-                       
-                     
-                     
-                </div>
-                <script src="script.js"></script>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="wrapper2">
+            <input type="text" id="degree" class="input" placeholder="Enter degrees">
+            <select name="type" id="type">
+                <option value="" disabled selected>Select type</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celsius</option>
+            </select>
+        </div>
+        <label for="result" class="wrapper1">Result</label>
+        <input type="text" id="result" class="wrapper1" readonly>
+        
+        <button id="convertButton">Convert</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
